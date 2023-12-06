@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Funcionamento</title>
+  <link rel="stylesheet" href="styleh.css">
+</head>
+<body>
+    <header>
+        <a class="home" href="index.html">Home</a>
+        <h1 class="h1f">FUNCIONAMENTO</h1>
+    </header>
+  <aside>
+    <nav>
+      <ul>
+        <li><a class="link" href="historia.html">Historia</a></li>
+        <br><br><br><li><a class="link" href="func.html">Funcionamento</a></li>
+        <br><br><br><li><a class="link" href="dif.html">Diferença Entre HTTP e HTTPS</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <article>
+    <div class="tarticle">
+        O HTTP funciona por meio de um modelo de requisição e resposta — ou, em inglês, request and response. 
+
+        Em outras palavras, toda a comunicação entre cliente e servidor é realizada através da troca de requisições e respostas: o cliente solicita algum elemento e o servidor responde com aquele elemento (ou algum código de erro, caso ele não seja encontrado).
+        
+        Cada requisição HTTP contém alguns elementos básicos, tais como:
+        
+        A versão HTTP utilizada.
+        O URL referente à solicitação HTTP.
+        O chamado método (ou verbo) HTTP, que indica a ação principal que será realizada por aquela requisição — dois dos principais métodos HTTP são o GET, que solicita um determinado dado, e o POST, que indica ao servidor o envio de dados do cliente. Esses dados incluem nome de usuário e senha numa tela de login, por exemplo.
+        O cabeçalho (header) HTTP, com dados sobre o navegador, cookies e o tipo de dado solicitado
+        O corpo (body) HTTP, que é opcional e incorpora informações porventura necessárias para o cumprimento da solicitação.
+        Já a resposta HTTP é composta basicamente por três elementos:
+        
+        O código de status, que indica o status da solicitação HTTP. Ele pode ser um código indicando que a requisição foi bem-sucedida, um código de erro, um código de redirecionamento ou muito mais — falaremos mais sobre isso abaixo.
+        O cabeçalho de resposta HTTP, que transmite ao cliente dados sobre o servidor.
+        O corpo HTTP, que traz de fato os dados solicitados pela requisição — como, por exemplo, o código HTML que será convertido pelo navegador nas páginas web que você deseja acessar.
+        Digamos, portanto, que você queira acessar a página inicial da Hostinger no seu navegador. Para isso, você digita hostinger.com.br na sua barra de endereços. Em seguida, o navegador passa a enviar uma série de requisições ao servidor no qual a página web está hospedada — uma requisição GET para obter o código HTML da página, outra para obter conteúdo multimídia, outra para receber o código CSS e assim por diante.
+        
+        Tudo isso acontece de forma invisível para o usuário final — e, na maior parte das vezes, numa fração de segundos. Ao final do processo, caso todas as requisições sejam bem-sucedidas, você terá a página da Hostinger devidamente aberta no seu navegador. Tudo graças ao funcionamento do protocolo HTTP.
+        
+        Esta transmissão de dados, vale notar, é realizada por dois outros protocolos ligados ao HTTP, chamados de TCP/IP. TCP significa Transmission Control Protocol, ou Protocolo de Controle de Transmissão, e ele é responsável por verificar a ordem e a regularidade das informações transmitidas entre cliente e servidor. 
+        
+        Já o IP é o Internet Protocol, ou Protocolo de Internet; ele é responsável por identificar todas as partes do processo, como dispositivos e conexões. Ele também garante que os dados sejam enviados e recebidos aos clientes e servidores corretos.    
+    </article>
+  <footer>
+    <p>Veja a matéria completa de "HTTP" em:  <a href="https://www.hostinger.com.br/tutoriais/http#:~:text=Esse%20%C3%A9%20o%20principal%20protocolo,no%20modelo%20computacional%20cliente%2Dservidor." class="Fonte">https://www.hostinger.com.br/tutoriais/http#:~:text=Esse%20%C3%A9%20o%20principal%20protocolo,no%20modelo%20computacional%20cliente%2Dservidor.</a></p>   
+
+   </footer>
+</body>
+</html>

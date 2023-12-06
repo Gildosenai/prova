@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+   
+  }
+  header{
+    background: url('https://media.kingston.com/kingston/hero/ktc-hero-blog-data-security-ironkey-encrypted-usb-proactive-protection-sme-enterprise-organizations-lg.jpg');
+    background-size:100% 350px;
+    height: 250px;
+  }
+
+
+  nav li {
+    width: 100%;
+    margin:  10px,10px,;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  .link{
+    background-color: #8a9eca;
+    padding: 4%;
+  }
+  .link:hover{/*açao ao passar o mause*/
+    color: #333;
+  }
+  aside {
+    
+    float: left;
+    width: 20%;
+    height: auto;
+    background-color:#0c0941;
+    color: #fff;
+  
+}
+.titulo{
+  text-align: center;
+}
+.img1{
+  background: url('https://cdn.pensador.com/img/imagens/ar/th/arthur_ashe_comece_onde_esta_use_tem_faca_pode_1.jpg?auto_optimize=low&width=655');
+  background-size:100% 350px;
+  height: 300px;
+}
+
+  article {
+    float: right;
+    width: 80%;
+    height: 100%;
+  }
+   video{
+    width: 100%;
+   }
+ 
+ 
+  footer {
+    
+    clear: both;
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .Fonte{
+    color: #fff;
+}
+
+
+ 
+
